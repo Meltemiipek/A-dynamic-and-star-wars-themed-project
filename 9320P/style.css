@@ -1,0 +1,27 @@
+body {
+    background-image: url('img/starwars.jpg') ; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+  }
+ .card {
+    background-color: #f6f0f0c6 !important; 
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    width: 250px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    box-shadow: 0 4px 8px rgb(45, 13, 125)  !important;
+    color: rgb(45, 13, 125) !important;
+    padding: 15px !important;
+  }
+  .card:hover {
+    transform: scale(1.05) !important; 
+    box-shadow: 0 8px 16px rgba(223, 222, 222, 0.3) !important;
+  }
+ .cards-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 40px !important; 
+  justify-content: center !important;
+}
